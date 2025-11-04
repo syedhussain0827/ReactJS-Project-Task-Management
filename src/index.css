@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global reset */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Body background & text */
+body {
+  @apply bg-gray-900 text-gray-100 font-sans;
+}
+
+/* Headings stronger */
+h1, h2, h3, h4, h5, h6 {
+  @apply text-white font-semibold;
+}
+
+/* Custom scrollbar for task list */
+#tasklist::-webkit-scrollbar {
+  height: 6px;
+}
+
+#tasklist::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#tasklist::-webkit-scrollbar-thumb {
+  background-color: #6b7280; /* gray-500 */
+  border-radius: 9999px;
+}
+#tasklist::-webkit-scrollbar-thumb:hover {
+  background-color: #9ca3af; /* gray-400 */
+}

@@ -1,0 +1,29 @@
+/* Root styles */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #111827; /* Tailwind's gray-900 for dark background */
+  color: #f3f4f6; /* Tailwind's gray-100 for text */
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Smooth transitions for theme & UI */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hide scrollbar (for TaskList horizontal scroll) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Card utility */
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-2xl shadow-md p-6;
+}
