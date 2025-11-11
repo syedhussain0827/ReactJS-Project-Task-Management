@@ -36,7 +36,7 @@ All changes made inside the app remain only in your browser’s storage.
 **🔐 Login Credentials**
 **👨‍💼 Admin**
 Email	Password
-admin@example.com 	12345678
+admin@example.com 	123
 
 
 **👩‍💻 Employees**
