@@ -8,7 +8,7 @@ All data (employees and admin) are stored in localStorage when the app starts.
 
 **Clone the repository**
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/syedhussain0827/ReactJS-Project-Task-Management?tab=readme-ov-file
 
 
 **Navigate to the project folder**
